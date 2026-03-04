@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <title>Smart CGPA Calculator Pro</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<div class="card">
+
+<h1>CGPA Calculator Pro 🚀</h1>
+
+<!-- MARKS SECTION -->
+
+<div class="section">
+
+<h3>Calculate from Marks</h3>
+
+<input id="marks" type="number" placeholder="Marks Obtained">
+
+<input id="total" type="number" placeholder="Total Marks">
+
+<button onclick="calcMarks()">Calculate</button>
+
+<button onclick="saveMarks()">Save Result</button>
+
+<p id="marksResult">CGPA: --</p>
+
+</div>
+
+<hr>
+
+<!-- GRADE SECTION -->
+
+<div class="section">
+
+<h3>Calculate from Grades</h3>
+
+<div id="rows"></div>
+
+<button onclick="addRow()">+ Add Subject</button>
+
+<button onclick="calcCGPA()">Calculate CGPA</button>
+
+<button onclick="saveGrades()">Save Result</button>
+
+<p id="gradeResult">CGPA: --</p>
+
+</div>
+  <hr>
+
+<!-- PASS / FAIL ANALYZER 🔥 -->
+
+<div class="section">
+
+<h3>Pass / Fail Analyzer ✅❌</h3>
+
+<input id="checkValue" type="number" placeholder="Enter Percentage / CGPA">
+
+<button onclick="checkResult()">Check Result</button>
+
+<p id="passFailResult">Result: --</p>
+
+</div>
+
+<hr>
+
+<!-- HISTORY SECTION 🔥 -->
+
+<div class="section">
+
+<h3>Saved Results 📊</h3>
+
+<div id="history"></div>
+
+<button onclick="clearHistory()" class="secondary">
+
+Clear History
+
+</button>
+  
+  
+</div>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>

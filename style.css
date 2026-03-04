@@ -1,0 +1,171 @@
+body {
+
+    margin: 0;
+
+    font-family: Arial, sans-serif;
+
+    background: radial-gradient(circle at top, #0f0f0f, #000);
+
+    color: white;
+
+    display: flex;
+
+    justify-content: center;
+
+    padding: 20px;
+
+}
+
+.card {
+
+    width: 100%;
+
+    max-width: 380px;
+
+    background: #111;
+
+    border-radius: 14px;
+
+    padding: 20px;
+
+    box-shadow: 0 0 25px rgba(0, 255, 255, 0.2);
+
+    border: 1px solid rgba(0, 255, 255, 0.2);
+
+}
+
+h1 {
+
+    text-align: center;
+
+    margin-bottom: 20px;
+
+    color: cyan;
+
+    text-shadow: 0 0 10px cyan;
+
+}
+
+h3 {
+
+    margin-bottom: 10px;
+
+    color: #00eaff;
+
+}
+
+.section {
+
+    margin-bottom: 15px;
+
+}
+
+/* ✅ MOBILE PERFECT INPUT */
+
+input {
+
+    width: 100%;
+
+    height: 34px !important;
+
+    padding: 0 10px !important;
+
+    margin: 5px 0;
+
+    border-radius: 8px;
+
+    border: 1px solid #222;
+
+    background: #0a0a0a;
+
+    color: white;
+
+    font-size: 14px;
+
+    outline: none;
+
+    box-sizing: border-box;
+
+    appearance: none;
+
+    -webkit-appearance: none;
+
+}
+
+/* 🔥 Glow effect */
+
+input:focus {
+
+    border-color: #00f0ff;
+
+    box-shadow: 0 0 6px #00f0ff;
+
+}
+
+/* ✅ PREMIUM BUTTON */
+
+button {
+
+    width: 100%;
+
+    height: 40px;
+
+    margin-top: 8px;
+
+    border: none;
+
+    border-radius: 10px;
+
+    background: #00f0ff;
+
+    color: black;
+
+    font-size: 14px;
+
+    font-weight: bold;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+
+}
+
+/* 🔥 Button Hover Effect */
+
+button:hover {
+
+    transform: scale(1.03);
+
+    box-shadow: 0 0 10px #00f0ff;
+
+}
+
+/* Secondary Button */
+
+.secondary {
+
+    background: transparent;
+
+    border: 1px solid #00f0ff;
+
+    color: #00f0ff;
+
+}
+
+.secondary:hover {
+
+    background: #00f0ff;
+
+    color: black;
+
+}
+
+p {
+
+    text-align: center;
+
+    font-size: 16px;
+
+    color: cyan;
+
+}
